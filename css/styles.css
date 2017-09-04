@@ -40,6 +40,20 @@ li {
   display: inline-block;
   margin-left: 0;
 }
+.menu-icon {
+  width: 50px;
+  height: 50px;
+  border: thin solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.menu-icon:hover {
+  transition: 0.3s;
+  transform: translateY(3px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
 #profile {
   background: #fff;
   border-radius: 10px;
@@ -64,17 +78,4 @@ li {
 .icon {
   border-radius: 50%;
   border: medium solid #fff;
-}
-a img {
-  width: 50px;
-  height: 50px;
-  border: thin solid #fff;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-}
-a img:hover {
-  transition: 0.3s;
-  transform: translateY(3px);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
