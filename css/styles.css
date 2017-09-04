@@ -10,9 +10,15 @@ h1 {
   font-size: 36px;
   font-family: Arial;
 }
+h2 {
+  font-size: 14px;
+  color: #cccccc;
+  text-align: center;
+  margin: 0;
+}
 p {
   padding-top: 0;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 ul {
   list-style: none;
@@ -29,22 +35,10 @@ ul:after {
   width: 100%;
   height: 0;
 }
-
+/* ---- */
 li {
   display: inline-block;
   margin-left: 0;
-}
-/* リンクの装飾削除 */
-a:link { color:#8f8f8f; text-decoration:none }
-a:visited { color:#8f8f8f; text-decoration:none }
-a:hover {
-  color:#e8e8e8;
-  text-decoration:none
-}
-a:active { color:#8f8f8f; text-decoration:none }
-
-.shadow {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 #profile {
   background: #fff;
@@ -65,12 +59,13 @@ a:active { color:#8f8f8f; text-decoration:none }
   border: medium solid #fff;
   border-radius: 50%;
   margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .icon {
   border-radius: 50%;
   border: medium solid #fff;
 }
-img.menu_icon {
+a img {
   width: 50px;
   height: 50px;
   border: thin solid #fff;
@@ -78,6 +73,8 @@ img.menu_icon {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-img.menu_icon:hover {
-  opacity: 0.4;
+a img:hover {
+  transition: 0.3s;
+  transform: translateY(3px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
