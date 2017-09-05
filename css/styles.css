@@ -69,12 +69,28 @@ li {
   text-align: center;
   border: thin solid #DCDCDC;
 }
+
 #profile_icon {
   border: medium solid #fff;
   border-radius: 50%;
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+  animation-name: slidein;
+  animation-duration: .7s;
+  animation-timing-function: ease-out;
 }
+@keyframes slidein {
+  from {
+  transform: translate(0, -20px);
+  opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
 .icon {
   border-radius: 50%;
   border: medium solid #fff;
