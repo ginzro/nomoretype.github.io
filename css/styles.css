@@ -109,7 +109,7 @@ li {
 
 @keyframes FirstAnime {
   0% {
-    height: 1px;
+    height: 2px;
     width: 0;
     border: none;
   }
