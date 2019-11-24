@@ -11,9 +11,9 @@ h1 {
   font-family: Arial;
 
   animation-name: slidein;
-  animation-duration: .7s;
+  animation-duration: .3s;
   animation-timing-function: ease-out;
-  animation-delay: 1.5s;
+  animation-delay: .5s;
   animation-fill-mode: backwards;
 
 }
@@ -28,9 +28,9 @@ p {
   padding-bottom: 10px;
 
   animation-name: slidein;
-  animation-duration: .7s;
+  animation-duration: .4s;
   animation-timing-function: ease-out;
-  animation-delay: 1.7s;
+  animation-delay: .5s;
   animation-fill-mode: backwards;
 }
 ul {
@@ -42,9 +42,9 @@ ul {
   text-align: justify;
 
   animation-name: slidein;
-  animation-duration: .7s;
+  animation-duration: .4s;
   animation-timing-function: ease-out;
-  animation-delay: 1.9s;
+  animation-delay: .5s;
   animation-fill-mode: backwards;
 
 }
@@ -103,7 +103,7 @@ li {
   text-align: center;
 
   animation: FirstAnime;
-  animation-duration: 1.6s;
+  animation-duration: 0.7s;
   animation-timing-function: ease-out;
 }
 
@@ -113,7 +113,7 @@ li {
     width: 0;
     border: none;
   }
-  50% {
+  20% {
     height: 1px;
     width: 540px;
     border: none;
@@ -132,9 +132,9 @@ li {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
   animation-name: slidein;
-  animation-duration: .7s;
+  animation-duration: .3s;
   animation-timing-function: ease-out;
-  animation-delay: 1.6s;
+  animation-delay: .2s;
   animation-fill-mode: backwards;
 }
 @keyframes slidein {
